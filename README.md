@@ -24,6 +24,7 @@ The preprocessing steps for the data used to finetune are as follows:
 ```bash
 git clone https://github.com/ipis-mjkim/caueeg-ceednet
 cd caueeg-ceednet
+```
 
 Run the Training Notebook:
 Open train.ipynb and run all cells to train the fine-tuned model. This will save a model checkpoint after training.
