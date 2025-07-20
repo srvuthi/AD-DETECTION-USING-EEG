@@ -1,11 +1,22 @@
-This repository contains a fine-tuned version of the CEEDNet model from Chung-Ahn University (original repo), designed to improve detection specificity for Alzheimer's Disease (AD) using EEG data.
+# Fine-Tuned CEEDNet for Alzheimer's Detection using EEG
 
-OVERVIEW
-The original CEEDNet model utilizes a ResNet-18 backbone and was trained to detect general dementia, achieving an accuracy of 68.75%.
-In this project, we fine-tuned the model specifically for Alzheimer's Disease classification, improving the model's performance to 77% accuracy.
+This repository contains a fine-tuned version of the **CEEDNet** model from Chung-Ahn University (original repo), designed to **improve detection specificity for Alzheimer's Disease (AD)** using EEG data.
 
-How to Use
-Clone the original CEEDNet repository:
+---
+
+### 🧠 Overview
+
+The original CEEDNet model uses a **ResNet-18 backbone** and was trained to detect general dementia, achieving an accuracy of **68.75%**.
+
+In this project, we fine-tuned the model **specifically for Alzheimer's Disease**, improving the model's performance to **77% accuracy**.
+
+---
+
+### 🚀 How to Use
+
+#### 1. Clone the Original CEEDNet Repository
+
+```bash
 git clone https://github.com/ipis-mjkim/caueeg-ceednet
 cd caueeg-ceednet
 
